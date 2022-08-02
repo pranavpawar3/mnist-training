@@ -1,0 +1,4 @@
+mnist_tf_env/
+model_ckpt/
+
+*.pb

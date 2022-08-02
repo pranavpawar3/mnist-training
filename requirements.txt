@@ -1,0 +1,4 @@
+tensorflow==2.9.1
+tensorflow-addons==0.17.1
+tqdm
+opencv-python==4.6.0.66
