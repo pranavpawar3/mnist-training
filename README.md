@@ -1,3 +1,8 @@
+CDL Assignment
+
+Code execution video - [here](https://www.youtube.com/watch?v=eWP7-CGX9q8) 
+
+
 Two approaches for this problem
 
 1. Label the images as odd even (1/0) and model a binary classification problem
