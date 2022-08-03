@@ -8,6 +8,7 @@ The latter gives accuracy improvement of 96% over the former; while the former f
 ```bash
 python3 -m venv mnist_tf_env
 source mnist_tf_env/bin/activate
+pip install -r requirements.txt
 
 # Train the model
 python train.py
