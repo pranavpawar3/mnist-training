@@ -8,5 +8,10 @@ The latter gives accuracy improvement of 96% over the former; while the former f
 ```bash
 python3 -m venv mnist_tf_env
 source mnist_tf_env/bin/activate
+
+# Train the model
 python train.py
+
+# to test sample images
+python test.py
 ```

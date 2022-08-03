@@ -93,7 +93,7 @@ model.add(Activation("softmax"))
 model.summary()
 
 model.compile(loss="sparse_categorical_crossentropy", optimizer="adam", metrics=['accuracy'])
-model.fit(x_trainr, y_train_final, epochs=5, validation_split = 0.3)
+model.fit(x_trainr, y_train_final, epochs=10, validation_split = 0.3)
 
 # Evaluating the accuracy on the test data
 test_loss, test_acc = model.evaluate(x_testr, y_test_final)

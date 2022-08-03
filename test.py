@@ -8,7 +8,7 @@ os.environ["CUDA_VISIBLE_DEVICES"] = "-1"
 test_model = keras.models.load_model('./model_ckpt')
 IMG_SIZE = 28
 
-img = cv2.imread('three.png')
+img = cv2.imread('samples/zero.png')
 
 # Converting to grayscale
 gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
@@ -36,4 +36,4 @@ if int(num%2):
 else:
     label = "EVEN"
 
-print(f"given image is {label}")
+print(f"given image is {num} which is {label}")
